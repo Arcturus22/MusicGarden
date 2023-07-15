@@ -1,0 +1,128 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+
+}
+.brand img{
+    width: 60px;
+    padding-right: 9px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+}
+nav ul {
+    display: flex;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    /* font-size:  1.3rem; */
+}
+nav ul li{
+    padding-right: 60px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+.songList h1{
+    font-size: 1.4rem;;
+}
+.container{
+    min-height: 69vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 12px;
+    background-image: url('Background-IMG.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .bg{
+    width: 100%;
+    min-width: 69vh;
+} */
+.bottom{
+    position: sticky;
+    height: 85px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-direction: column; 
+    /* font-family:  sans-serif; */
+
+}
+#progbar{
+    width: 80vw;
+    cursor: pointer;
+    margin-bottom: 12px;
+    
+}
+.icons i{
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.songItem {
+    height: 48px;
+    display: flex;
+    background-color: white;
+    width: 130%;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-size: 1.1rem;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 26px;
+}
+.songInfo{
+    position: absolute;
+    left: 9.5vw;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.songInfo .cover{
+    /* height: 43px; */
+    width: 43px;
+    border-radius: 44px;
+    padding-right: 5px;
+}
+.gif img{
+    position: absolute;
+    left: 0;
+    width: 139px;
+    height: 60px;
+    top: 25px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
